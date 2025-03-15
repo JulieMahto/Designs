@@ -35,8 +35,8 @@ nav a:hover {
 .hero {
     text-align: left;
     padding: 100px 20px;
-    background: linear-gradient(135deg, #4f67d8, #88aaff);
-    color: white;
+    background: #0d0d0d;
+    color: #0d0d0d;
 }
 
 .hero h2 {
