@@ -60,8 +60,8 @@ nav a:hover {
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
-    gap: 20px; /* Space between grid items */
-    justify-content: center; /* Center the grid within the container */
+    gap: 30px; /* Space between grid items */
+    justify-content: left; /* Center the grid within the container */
 }
 
 /* Individual Project Styles */
@@ -78,7 +78,7 @@ nav a:hover {
 }
 
 .project:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+    transform: scale(1.25); /* Slight zoom on hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
