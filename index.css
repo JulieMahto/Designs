@@ -56,22 +56,50 @@ nav a:hover {
     text-align: left;
 }
 
-/* Projects Grid */
+/* Projects Grid - 3x3 Layout */
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    gap: 20px; /* Space between grid items */
+    justify-content: center; /* Center the grid within the container */
 }
 
+/* Individual Project Styles */
 .project {
+    display: block;
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
+    text-align: left;
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Keep the link color consistent */
+    background-color: #fff;
+    transition: transform 0.2s, box-shadow 0.2s; /* Add hover effect */
 }
 
+.project:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Make Project Images Responsive */
 .project img {
     width: 100%;
+    height: auto; /* Maintain aspect ratio */
     border-radius: 10px;
+}
+
+/* Responsive Design - Adjust for Smaller Screens */
+@media (max-width: 768px) {
+    .projects {
+        grid-template-columns: 1fr 1fr; /* Two columns for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .projects {
+        grid-template-columns: 1fr; /* Single column for very small screens */
+    }
 }
 
 /* Footer Styles */
