@@ -75,7 +75,7 @@ nav a:hover {
     color: inherit; /* Keep the link color consistent */
     background-color: #fff;
     transition: transform 0.2s, box-shadow 0.2s; /* Add hover effect */
-    height: 250px; /* Set a fixed height */
+    height: 150px; /* Set a fixed height */
     overflow: hidden; /* Ensure content stays within the block */
 }
 
