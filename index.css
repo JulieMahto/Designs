@@ -1,9 +1,9 @@
 /* General Styles */
 body {
-    margin: 0;
+    margin: 20px;
     font-family: Arial, sans-serif;
-    background: #0d0d0d;
-    color: #333;
+    background: #333;
+    color: #fff;
 }
 
 /* Header Styles */
@@ -60,7 +60,7 @@ nav a:hover {
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
-    gap: 30px; /* Space between grid items */
+    gap: 40px; /* Space between grid items */
     justify-content: left; /* Center the grid within the container */
 }
 
@@ -68,8 +68,8 @@ nav a:hover {
 .project {
     display: block;
     border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 25px;
+    border-radius: 15px;
     text-align: left;
     text-decoration: none; /* Remove underline from links */
     color: inherit; /* Keep the link color consistent */
@@ -78,7 +78,7 @@ nav a:hover {
 }
 
 .project:hover {
-    transform: scale(1.25); /* Slight zoom on hover */
+    transform: scale(1.15); /* Slight zoom on hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
