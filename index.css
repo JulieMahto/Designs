@@ -68,14 +68,14 @@ nav a:hover {
 .project {
     display: block;
     border: 1px solid #ccc;
-    padding: 30px;
-    border-radius: 15px;
+    padding: 45px;
+    border-radius: 10px;
     text-align: left;
     text-decoration: none; /* Remove underline from links */
     color: inherit; /* Keep the link color consistent */
     background-color: #fff;
     transition: transform 0.2s, box-shadow 0.2s; /* Add hover effect */
-    height: 300px; /* Set a fixed height */
+    height: 250px; /* Set a fixed height */
     overflow: hidden; /* Ensure content stays within the block */
 }
 
