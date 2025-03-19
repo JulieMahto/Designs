@@ -1,8 +1,9 @@
 /* General Styles */
  body {
-     margin: 0;
+     margin: 20px;
      font-family: Arial, sans-serif;
      background: #0d0d0d;
+     align-items: center;
      color: #333;
  }
  
@@ -53,6 +54,7 @@
      padding: 60px 20px;
      max-width: 3000px;
      margin: auto;
+     align-items: left;
      text-align: left;
  }
  
