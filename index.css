@@ -1,9 +1,15 @@
 /* General Stylessssssssssss */
 body {
-    margin: 80px;
+    margin: 60px;
     font-family: Arial, sans-serif;
     background: #222;
     color: #fff;
+}
+
+.container {
+    max-width: 1200px; /* Adjust based on your preference */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add some padding for smaller screens */
 }
 
 /* Header Styles */
@@ -11,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
+    padding: 20px 0;
     background: #222;
     color: #fff;
 }
@@ -53,13 +59,13 @@ nav a:hover {
     padding: 60px 20px;
     max-width: 3000px;
     margin: auto;
-    text-align: left;
+    text-align: center;
 }
 
 /* Projects Grid - 3x3 Layout */
 .projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Three equal-width columns */
     gap: 20px; /* Space between grid items */
     justify-content: left; /* Center the grid within the container */
 }
@@ -68,7 +74,7 @@ nav a:hover {
 .project {
     display: block;
     border: 1px solid #ccc;
-    padding: 45px;
+    padding: 30px;
     border-radius: 10px;
     text-align: left;
     text-decoration: none; /* Remove underline from links */
@@ -76,6 +82,7 @@ nav a:hover {
     background-color: #fff;
     transition: transform 0.2s, box-shadow 0.2s; /* Add hover effect */
     height: 150px; /* Set a fixed height */
+    overflow: hidden; /* Ensure content stays within the block */
 }
 
 .project:hover {
