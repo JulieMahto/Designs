@@ -52,7 +52,7 @@ nav a:hover {
 
 /* Section Styles */
 .section {
-    padding: 60px 20px;
+    padding: 0px 20px;
     max-width: 3000px;
     margin: auto;
     text-align: Left;
@@ -61,7 +61,7 @@ nav a:hover {
 /* Projects Grid - 3x3 Layout */
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit,(3, 1fr)); /* Three equal-width columns */
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
     gap: 20px; /* Space between grid items */
     justify-content: left; /* Center the grid within the container */
 }
