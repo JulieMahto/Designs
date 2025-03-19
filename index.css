@@ -2,7 +2,7 @@
  body {
      margin: 20px;
      font-family: Arial, sans-serif;
-     background: #0d0d0d;
+     background: #222;
      align-items: center;
      color: #222;
  }
@@ -35,7 +35,7 @@
  /* Hero Section */
  .hero {
      text-align: left;
-     padding: 100px 20px;
+     padding: 20px 20px;
      background: #0d0d0d;
      color: white;
  }
@@ -54,7 +54,6 @@
      padding: 60px 20px;
      max-width: 3000px;
      margin: auto;
-     color: #fff;
      align-items: left;
      text-align: left;
  }
@@ -63,6 +62,7 @@
  .projects {
      display: grid;
      grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+     color: #fff;
      gap: 30px; /* Space between grid items */
      justify-content: left; /* Center the grid within the container */
  }
@@ -108,7 +108,7 @@
  /* Footer Styles */
  footer {
      text-align: center;
-     padding: 20px;
+     padding: 5px;
      background: #222;
      color: #fff;
  }
