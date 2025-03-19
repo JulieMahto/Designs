@@ -4,7 +4,7 @@
      font-family: Arial, sans-serif;
      background: #0d0d0d;
      align-items: center;
-     color: #333;
+     color: #222;
  }
  
  /* Header Styles */
@@ -80,7 +80,7 @@
  }
  
  .project:hover {
-     transform: scale(1.25); /* Slight zoom on hover */
+     transform: scale(0.75); /* Slight zoom on hover */
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  }
  
