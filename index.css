@@ -4,7 +4,7 @@
      font-family: Arial, sans-serif;
      background: #222;
      align-items: center;
-     color: #222;
+     color: #fff;
  }
  
  /* Header Styles */
@@ -78,10 +78,11 @@
      color: inherit; /* Keep the link color consistent */
      background-color: #fff;
      transition: transform 0.2s, box-shadow 0.2s; /* Add hover effect */
+     max-height: 500px;
  }
  
  .project:hover {
-     transform: scale(0.75); /* Slight zoom on hover */
+     transform: scale(1.02); /* Slight zoom on hover */
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  }
  
