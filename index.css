@@ -41,7 +41,7 @@
  }
  
  .hero h2 {
-     font-size: 100px;
+     font-size: 60px;
      margin: 0;
  }
  
@@ -71,14 +71,15 @@
  .project {
      display: block;
      border: 1px solid #ccc;
-     padding: 20px;
+     padding: 10px;
      border-radius: 10px;
      text-align: left;
      text-decoration: none; /* Remove underline from links */
      color: inherit; /* Keep the link color consistent */
      background-color: #fff;
      transition: transform 0.2s, box-shadow 0.2s; /* Add hover effect */
-     max-height: 500px;
+     height: 300px;
+     overflow: hidden; /* Ensure content stays within the block */
  }
  
  .project:hover {
