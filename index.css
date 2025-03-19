@@ -1,115 +1,111 @@
-/* General Stylessssssssssss */
-body {
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-    background: #222;
-    color: #fff;
-}
-
-/* Header Styles */
-header {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1000px;
-    align-items: center;
-    padding: 10px 0;
-    background: #222;
-    color: #fff;
-}
-
-header h1 {
-    font-size: 24px;
-}
-
-nav a {
-    margin-left: 10px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Hero Section */
-.hero {
-    text-align: left;
-    padding: 50px 0px;
-    max-width: 1000px;
-    background: #222;
-    color: white;
-}
-
-.hero h2 {
-    font-size: 80px;
-    margin: 0;
-}
-
-.hero p {
-    font-size: 20px;
-}
-
-/* Section Styles */
-.section {
-    padding: 0px 20px;
-    max-width: 1000px;
-    margin: auto;
-    text-align: Left;
-}
-
-/* Projects Grid - 3x3 Layout */
-.projects {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
-    gap: 20px; /* Space between grid items */
-    justify-content: left; /* Center the grid within the container */
-}
-
-/* Individual Project Styles */
-.project {
-    display: block;
-    border: 1px solid #ccc;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: left;
-    text-decoration: none; /* Remove underline from links */
-    color: inherit; /* Keep the link color consistent */
-    background-color: #fff;
-    transition: transform 0.2s, box-shadow 0.2s; /* Add hover effect */
-    height: 150px; /* Set a fixed height */
-    overflow: hidden; /* Ensure content stays within the block */
-}
-
-.project:hover {
-    transform: scale(1.15); /* Slight zoom on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Make Project Images Responsive */
-.project img {
-    width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px;
-}
-
-/* Responsive Design - Adjust for Smaller Screens */
-@media (max-width: 768px) {
-    .projects {
-        grid-template-columns: 1fr 1fr; /* Two columns for smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .projects {
-        grid-template-columns: 1fr; /* Single column for very small screens */
-    }
-}
-
-/* Footer Styles */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #222;
-    color: #fff;
-}
+/* General Styles */
+ body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+     background: #0d0d0d;
+     color: #333;
+ }
+ 
+ /* Header Styles */
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+     background: #222;
+     color: #fff;
+ }
+ 
+ header h1 {
+     font-size: 24px;
+ }
+ 
+ nav a {
+     margin-left: 10px;
+     color: #fff;
+     text-decoration: none;
+     font-size: 18px;
+ }
+ 
+ nav a:hover {
+     text-decoration: underline;
+ }
+ 
+ /* Hero Section */
+ .hero {
+     text-align: left;
+     padding: 100px 20px;
+     background: #0d0d0d;
+     color: white;
+ }
+ 
+ .hero h2 {
+     font-size: 100px;
+     margin: 0;
+ }
+ 
+ .hero p {
+     font-size: 20px;
+ }
+ 
+ /* Section Styles */
+ .section {
+     padding: 60px 20px;
+     max-width: 1000px;
+     margin: auto;
+     text-align: left;
+ }
+ 
+ /* Projects Grid - 3x3 Layout */
+ .projects {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+     gap: 30px; /* Space between grid items */
+     justify-content: left; /* Center the grid within the container */
+ }
+ 
+ /* Individual Project Styles */
+ .project {
+     display: block;
+     border: 1px solid #ccc;
+     padding: 20px;
+     border-radius: 10px;
+     text-align: left;
+     text-decoration: none; /* Remove underline from links */
+     color: inherit; /* Keep the link color consistent */
+     background-color: #fff;
+     transition: transform 0.2s, box-shadow 0.2s; /* Add hover effect */
+ }
+ 
+ .project:hover {
+     transform: scale(1.25); /* Slight zoom on hover */
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ 
+ /* Make Project Images Responsive */
+ .project img {
+     width: 100%;
+     height: auto; /* Maintain aspect ratio */
+     border-radius: 10px;
+ }
+ 
+ /* Responsive Design - Adjust for Smaller Screens */
+ @media (max-width: 768px) {
+     .projects {
+         grid-template-columns: 1fr 1fr; /* Two columns for smaller screens */
+     }
+ }
+ 
+ @media (max-width: 480px) {
+     .projects {
+         grid-template-columns: 1fr; /* Single column for very small screens */
+     }
+ }
+ 
+ /* Footer Styles */
+ footer {
+     text-align: center;
+     padding: 20px;
+     background: #222;
+     color: #fff;
+ }
