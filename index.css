@@ -55,7 +55,12 @@
      max-width: 3000px;
      margin: auto;
      align-items: left;
+     color: #fff;
      text-align: left;
+ }
+
+ .section :hover {
+     text-decoration: underline;
  }
  
  /* Projects Grid - 3x3 Layout */
