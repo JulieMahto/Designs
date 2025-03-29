@@ -59,9 +59,6 @@
      text-align: left;
  }
 
- .section :hover {
-     text-decoration: underline;
- }
  
  /* Projects Grid - 3x3 Layout */
  .projects {
@@ -98,6 +95,12 @@
      height: auto; /* Maintain aspect ratio */
      border-radius: 10px;
  }
+
+.contact-me a {
+    color: white; /* Ensure the link is white */
+    text-decoration: underline; /* Ensure the link has an underline */
+    display: inline; /* Keep it inline with other text */
+}
  
  /* Responsive Design - Adjust for Smaller Screens */
  @media (max-width: 768px) {
